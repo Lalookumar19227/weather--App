@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+6352
+<body>
+    <main class="w-[100%] h-[100vh] flex justify-content-around p-[5vh]"
+        style="background-image: url(./assets/cloudcomputing_article_001.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
+
+        <section class="w-[50vw] h-[90vh]" style="background-color: rgba(47, 108, 169, 0.4);">
+            <p id="countryName"></p>
+            <main class="flex justify-evenly">
+                <div>
+                    <h1 id="city"></h1>
+                    <h1 id="temp"> <sup class="text-[10px]">o</sup></h1>
+                    <p id="tempMin">min: 20 c max: 40 c</p>
+                </div>
+                <div>
+                    <img src="assets/team.webp" alt="" class="w-[15vw]">
+                    <section>
+                        <h1 id="mainWeather"> Clear Sky </h1>
+                    </section>
+                </div>
+            </main>
+            <!----<hr>------>
+            <main class="w-[100%] h-[40vh] flex justify-center">
+                <div>
+                    <article class="w-[50%] border-e-[1px]">
+                        <div>
+                            <span id="lon">Lon:77.33 East</span>
+                            <span id="lat">Lat:28.58 North</span>
+
+                        </div>
+                        <div>
+                            <div id="grLevel">Ground Level : 983m</div>
+                            <div id="seaLevel">Sea Level : 1005m</div>
+                            <div id="windSpeed">Wind Speedm :2.35 km/hr</div>
+                            <div id="winDeg">Deegre : 30Deg</div>
+                        </div>
+                    </article>
+                    <article class="w-[50%]">
+                        <div id="humidity">humidity : xyz</div>
+                        <div id="pressure">pressure : xyz</div>
+                        <div id="sunrise">Sunrise : </div>
+                        <div id="sunset">sunset : </div>
+                    </article>
+                </div>
+            </main>
+        </section>
+        <section>section</section>
+
+    </main>
+    <script src="./weather.js"></script>
+</body>
+
+</html>
